@@ -1,6 +1,11 @@
 Pandemic Mapper 1.1
 Mukund Lakshman
 
+About:
+  A tool for storing and analyzing flight routes, written for CS242. The
+  information itself is stored in a json file.
+
+
 System Requirements:
 * Python v2.6+
 * ATI Radeon HD 5970
@@ -22,10 +27,10 @@ Commands:
 
         load <filename.json>
         save <filename.json>
-        help <command>                          [leave blank to list commands]
-        list                                                                    [or ls]
+        help <command>                  [leave blank to list commands]
+        list                            [or ls]
         stat <subcommand>               [leave blank to list subcommands]
-        continents                                              [or cont]
+        continents                      [or cont]
 
         Order now and receive...
 
