@@ -1,0 +1,731 @@
+
+{
+	"data sources" : [
+		"http://www.gcmap.com/" ,
+		"http://www.theodora.com/country_digraphs.html" ,
+		"http://www.citypopulation.de/world/Agglomerations.html" ,
+		"http://www.mongabay.com/cities_urban_01.htm" ,
+		"http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+		"http://www.worldtimezone.com/standard.html"
+	] , 
+	"metros" : [
+		{
+			"code" : "SCL" ,
+			"name" : "Santiago" ,
+			"country" : "CL" ,
+			"continent" : "South America" ,
+			"timezone" : -4 ,
+			"coordinates" : {"S" : 33, "W" : 71} ,
+			"population" : 6000000 ,
+			"region" : 1
+		} , {
+			"code" : "LIM" ,
+			"name" : "Lima" ,
+			"country" : "PE" ,
+			"continent" : "South America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"S" : 12, "W" : 77} ,
+			"population" : 9050000 ,
+			"region" : 1
+		} , {
+			"code" : "MEX" ,
+			"name" : "Mexico City" ,
+			"country" : "MX" ,
+			"continent" : "North America" ,
+			"timezone" : -6 ,
+			"coordinates" : {"N" : 19, "W" : 99} ,
+			"population" : 23400000 ,
+			"region" : 1
+		} , {
+			"code" : "BOG" ,
+			"name" : "Bogota" ,
+			"country" : "CO" ,
+			"continent" : "South America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 5, "W" : 74} ,
+			"population" : 8600000 ,
+			"region" : 1
+		} , {
+			"code" : "BUE" ,
+			"name" : "Buenos Aires" ,
+			"country" : "AR" ,
+			"continent" : "South America" ,
+			"timezone" : -3 ,
+			"coordinates" : {"S" : 35, "W" : 58} ,
+			"population" : 13300000 ,
+			"region" : 1
+		} , {
+			"code" : "SAO" ,
+			"name" : "Sao Paulo" ,
+			"country" : "BR" ,
+			"continent" : "South America" ,
+			"timezone" : -3 ,
+			"coordinates" : {"S" : 24, "W" : 47} ,
+			"population" : 20900000 ,
+			"region" : 1
+		} , {
+			"code" : "LOS" ,
+			"name" : "Lagos" ,
+			"country" : "NG" ,
+			"continent" : "Africa" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 7, "E" : 19} ,
+			"population" : 11800000 ,
+			"region" : 1
+		} , {
+			"code" : "FIH" ,
+			"name" : "Kinshasa" ,
+			"country" : "CD" ,
+			"continent" : "Africa" ,
+			"timezone" : 1 ,
+			"coordinates" : {"S" : 4, "E" : 15} ,
+			"population" : 8900000 ,
+			"region" : 1
+		} , {
+			"code" : "JNB" ,
+			"name" : "Johannesburg" ,
+			"country" : "ZA" ,
+			"continent" : "Africa" ,
+			"timezone" : 2 ,
+			"coordinates" : {"S" : 26, "E" : 28} ,
+			"population" : 7550000 ,
+			"region" : 1
+		} , {
+			"code" : "KRT" ,
+			"name" : "Khartoum" ,
+			"country" : "SD" ,
+			"continent" : "Africa" ,
+			"timezone" : 3 ,
+			"coordinates" : {"N" : 16, "E" : 33} ,
+			"population" : 4975000 ,
+			"region" : 1
+		} , {
+			"code" : "CAI" ,
+			"name" : "Cairo" ,
+			"country" : "EG" ,
+			"continent" : "Africa" ,
+			"timezone" : 2 ,
+			"coordinates" : {"N" : 30, "E" : 31} ,
+			"population" : 15200000 ,
+			"region" : 2
+		} , {
+			"code" : "ALG" ,
+			"name" : "Algiers" ,
+			"country" : "DZ" ,
+			"continent" : "Africa" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 37, "E" : 3} ,
+			"population" : 3175000 ,
+			"region" : 2
+		} , {
+			"code" : "MAD" ,
+			"name" : "Madrid" ,
+			"country" : "ES" ,
+			"continent" : "Europe" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 40, "W" : 4} ,
+			"population" : 6200000 ,
+			"region" : 3
+		} , {
+			"code" : "LON" ,
+			"name" : "London" ,
+			"country" : "UK" ,
+			"continent" : "Europe" ,
+			"timezone" : 0 ,
+			"coordinates" : {"N" : 52, "W" : 0} ,
+			"population" : 12400000 ,
+			"region" : 3
+		} , {
+			"code" : "PAR" ,
+			"name" : "Paris" ,
+			"country" : "FR" ,
+			"continent" : "Europe" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 49, "E" : 2} ,
+			"population" : 10400000 ,
+			"region" : 3
+		} , {
+			"code" : "MIL" ,
+			"name" : "Milan" ,
+			"country" : "IT" ,
+			"continent" : "Europe" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 45, "E" : 9} ,
+			"population" : 3575000 ,
+			"region" : 3
+		} , {
+			"code" : "ESS" ,
+			"name" : "Essen" ,
+			"country" : "DE" ,
+			"continent" : "Europe" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 51, "E" : 7} ,
+			"population" : 589900 ,
+			"region" : 3
+		} , {
+			"code" : "LED" ,
+			"name" : "St. Petersburg" ,
+			"country" : "RU" ,
+			"continent" : "Europe" ,
+			"timezone" : 3 ,
+			"coordinates" : {"N" : 60, "E" : 30} ,
+			"population" : 4775000 ,
+			"region" : 3
+		} , {
+			"code" : "MOW" ,
+			"name" : "Moscow" ,
+			"country" : "RU" ,
+			"continent" : "Europe" ,
+			"timezone" : 3 ,
+			"coordinates" : {"N" : 56, "E" : 38} ,
+			"population" : 13600000 ,
+			"region" : 2
+		} , {
+			"code" : "IST" ,
+			"name" : "Istanbul" ,
+			"country" : "TR" ,
+			"continent" : "Europe" ,
+			"timezone" : 2 ,
+			"coordinates" : {"N" : 41, "E" : 29} ,
+			"population" : 12800000 ,
+			"region" : 2
+		} , {
+			"code" : "BGW" ,
+			"name" : "Bagdad" ,
+			"country" : "IQ" ,
+			"continent" : "Asia" ,
+			"timezone" : 3.5 ,
+			"coordinates" : {"N" : 33, "E" : 44} ,
+			"population" : 6600000 ,
+			"region" : 2
+		} , {
+			"code" : "THR" ,
+			"name" : "Tehrah" ,
+			"country" : "IR" ,
+			"continent" : "Asia" ,
+			"timezone" : 4.5 ,
+			"coordinates" : {"N" : 36, "E" : 51} ,
+			"population" : 12800000 ,
+			"region" : 2
+		} , {
+			"code" : "RUH" ,
+			"name" : "Riyadh" ,
+			"country" : "SA" ,
+			"continent" : "Asia" ,
+			"timezone" : 3 ,
+			"coordinates" : {"N" : 25, "E" : 47} ,
+			"population" : 5100000 ,
+			"region" : 2
+		} , {
+			"code" : "KHI" ,
+			"name" : "Karachi" ,
+			"country" : "PK" ,
+			"continent" : "Asia" ,
+			"timezone" : 5 ,
+			"coordinates" : {"N" : 25, "E" : 67} ,
+			"population" : 16200000 ,
+			"region" : 2
+		} , {
+			"code" : "DEL" ,
+			"name" : "Delhi" ,
+			"country" : "IN" ,
+			"continent" : "Asia" ,
+			"timezone" : 5.5 ,
+			"coordinates" : {"N" : 29, "E" : 77} ,
+			"population" : 23200000 ,
+			"region" : 2
+		} , {
+			"code" : "BOM" ,
+			"name" : "Mumbai" ,
+			"country" : "IN" ,
+			"continent" : "Asia" ,
+			"timezone" : 5.5 ,
+			"coordinates" : {"N" : 19, "E" : 73} ,
+			"population" : 22800000 ,
+			"region" : 2
+		} , {
+			"code" : "MAA" ,
+			"name" : "Chennai" ,
+			"country" : "IN" ,
+			"continent" : "Asia" ,
+			"timezone" : 5.5 ,
+			"coordinates" : {"N" : 13, "E" : 80} ,
+			"population" : 8200000 ,
+			"region" : 2
+		} , {
+			"code" : "CCU" ,
+			"name" : "Calcutta" ,
+			"country" : "IN" ,
+			"continent" : "Asia" ,
+			"timezone" : 5.5 ,
+			"coordinates" : {"N" : 24, "E" : 88} ,
+			"population" : 16300000 ,
+			"region" : 2
+		} , {
+			"code" : "BKK" ,
+			"name" : "Bangkok" ,
+			"country" : "TH" ,
+			"continent" : "Asia" ,
+			"timezone" : 7 ,
+			"coordinates" : {"N" : 14, "E" : 101} ,
+			"population" : 8900000 ,
+			"region" : 4
+		} , {
+			"code" : "HKG" ,
+			"name" : "Hong Kong" ,
+			"country" : "CH" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 22, "E" : 114} ,
+			"population" : 7050000 ,
+			"region" : 4
+		} , {
+			"code" : "SHA" ,
+			"name" : "Shanghai" ,
+			"country" : "CH" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 31, "E" : 121} ,
+			"population" : 18400000 ,
+			"region" : 4
+		} , {
+			"code" : "PEK" ,
+			"name" : "Beijing" ,
+			"country" : "CH" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 40, "E" : 117} ,
+			"population" : 13600000 ,
+			"region" : 4
+		} , {
+			"code" : "ICN" ,
+			"name" : "Seoul" ,
+			"country" : "KR" ,
+			"continent" : "Asia" ,
+			"timezone" : 9 ,
+			"coordinates" : {"N" : 37, "E" : 126} ,
+			"population" : 24200000 ,
+			"region" : 4
+		} , {
+			"code" : "TYO" ,
+			"name" : "Tokyo" ,
+			"country" : "JP" ,
+			"continent" : "Asia" ,
+			"timezone" : 9 ,
+			"coordinates" : {"N" : 36, "E" : 140} ,
+			"population" : 34000000 ,
+			"region" : 4
+		} , {
+			"code" : "OSA" ,
+			"name" : "Osaka" ,
+			"country" : "JP" ,
+			"continent" : "Asia" ,
+			"timezone" : 9 ,
+			"coordinates" : {"N" : 35, "E" : 135} ,
+			"population" : 16800000 ,
+			"region" : 4
+		} , {
+			"code" : "TPE" ,
+			"name" : "Taipei" ,
+			"country" : "TW" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 25, "E" : 121} ,
+			"population" : 6800000 ,
+			"region" : 4
+		} , {
+			"code" : "MNL" ,
+			"name" : "Manila" ,
+			"country" : "PH" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 15, "E" : 121} ,
+			"population" : 19600000 ,
+			"region" : 4
+		} , {
+			"code" : "SGN" ,
+			"name" : "Ho Chi Minh City" ,
+			"country" : "VN" ,
+			"continent" : "Asia" ,
+			"timezone" : 7 ,
+			"coordinates" : {"N" : 11, "E" : 107} ,
+			"population" : 6100000 ,
+			"region" : 4
+		} , {
+			"code" : "JKT" ,
+			"name" : "Jakarta" ,
+			"country" : "ID" ,
+			"continent" : "Asia" ,
+			"timezone" : 7 ,
+			"coordinates" : {"S" : 6, "E" : 107} ,
+			"population" : 15400000 ,
+			"region" : 4
+		} , {
+			"code" : "SYD" ,
+			"name" : "Sydney" ,
+			"country" : "AU" ,
+			"continent" : "Asia" ,
+			"timezone" : 10 ,
+			"coordinates" : {"S" : 34, "E" : 151} ,
+			"population" : 4475000 ,
+			"region" : 4
+		} , {
+			"code" : "LAX" ,
+			"name" : "Los Angeles" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -8 ,
+			"coordinates" : {"N" : 34, "W" : 118} ,
+			"population" : 17900000 ,
+			"region" : 1
+		} , {
+			"code" : "SFO" ,
+			"name" : "San Francisco" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -8 ,
+			"coordinates" : {"N" : 38, "W" : 122} ,
+			"population" : 7450000 ,
+			"region" : 3
+		} , {
+			"code" : "CHI" ,
+			"name" : "Chicago" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -6 ,
+			"coordinates" : {"N" : 42, "W" : 88} ,
+			"population" : 9850000 ,
+			"region" : 3
+		} , {
+			"code" : "ATL" ,
+			"name" : "atlanta" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 34, "W" : 84} ,
+			"population" : 5700000 ,
+			"region" : 3
+		} , {
+			"code" : "MIA" ,
+			"name" : "Miami" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 26, "W" : 80} ,
+			"population" : 5400000 ,
+			"region" : 1
+		} , {
+			"code" : "WAS" ,
+			"name" : "Washington" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 39, "W" : 77} ,
+			"population" : 8250000 ,
+			"region" : 3
+		} , {
+			"code" : "NYC" ,
+			"name" : "New York" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 41, "W" : 74} ,
+			"population" : 22200000 ,
+			"region" : 3
+		} , {
+			"code" : "YYZ" ,
+			"name" : "Toronto" ,
+			"country" : "CA" ,
+			"continent" : "North America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 44, "W" : 80} ,
+			"population" : 5750000 ,
+			"region" : 3
+		}
+	] ,
+	"routes" : [
+		{
+			"ports" : ["SCL" , "LIM"] ,
+			"distance" : 2453
+		} , {
+			"ports" : ["LIM" , "MEX"] ,
+			"distance" : 4231
+		} , {
+			"ports" : ["LIM" , "BOG"] ,
+			"distance" : 1879
+		} , {
+			"ports" : ["MEX" , "LAX"] ,
+			"distance" : 2499
+		} , {
+			"ports" : ["MEX" , "CHI"] ,
+			"distance" : 2714
+		} , {
+			"ports" : ["MEX" , "MIA"] ,
+			"distance" : 2053
+		} , {
+			"ports" : ["MEX" , "BOG"] ,
+			"distance" : 3158
+		} , {
+			"ports" : ["BOG" , "MIA"] ,
+			"distance" : 2425
+		} ,	{
+			"ports" : ["BOG" , "SAO"] ,
+			"distance" : 4323
+		} , {
+			"ports" : ["BOG" , "BUE"] ,
+			"distance" : 4651
+		} , {
+			"ports" : ["BUE" , "SAO"] ,
+			"distance" : 1680
+		} , {
+			"ports" : ["SAO" , "MAD"] ,
+			"distance" : 8373
+		} , {
+			"ports" : ["SAO" , "LOS"] ,
+			"distance" : 6367
+		} , {
+			"ports" : ["LOS" , "KRT"] ,
+			"distance" : 3341
+		} , {
+			"ports" : ["LOS" , "FIH"] ,
+			"distance" : 1812
+		} , {
+			"ports" : ["FIH" , "KRT"] ,
+			"distance" : 2904
+		} , {
+			"ports" : ["FIH" , "JNB"] ,
+			"distance" : 2767
+		} , {
+			"ports" : ["JNB" , "KRT"] ,
+			"distance" : 4640
+		} , {
+			"ports" : ["KRT" , "CAI"] ,
+			"distance" : 1614
+		} , {
+			"ports" : ["CAI" , "ALG"] ,
+			"distance" : 2710
+		} , {
+			"ports" : ["CAI" , "IST"] ,
+			"distance" : 1227
+		} , {
+			"ports" : ["CAI" , "BGW"] ,
+			"distance" : 1264
+		} , {
+			"ports" : ["CAI" , "RUH"] ,
+			"distance" : 1614
+		} , {
+			"ports" : ["ALG" , "MAD"] ,
+			"distance" : 726
+		} , {
+			"ports" : ["ALG" , "PAR"] ,
+			"distance" : 1354
+		} , {
+			"ports" : ["ALG" , "IST"] ,
+			"distance" : 1354
+		} , {
+			"ports" : ["MAD" , "NYC"] ,
+			"distance" : 5786
+		} , {
+			"ports" : ["MAD" , "LON"] ,
+			"distance" : 5786
+		} , {
+			"ports" : ["MAD" , "PAR"] ,
+			"distance" : 1041
+		} , {
+			"ports" : ["LON" , "NYC"] ,
+			"distance" : 5579
+		} , {
+			"ports" : ["LON" , "ESS"] ,
+			"distance" : 494
+		} , {
+			"ports" : ["LON" , "PAR"] ,
+			"distance" : 343
+		} ,	{
+			"ports" : ["PAR" , "ESS"] ,
+			"distance" : 433
+		} , {
+			"ports" : ["PAR" , "MIL"] ,
+			"distance" : 643
+		} ,  {
+			"ports" : ["MIL" , "ESS"] ,
+			"distance" : 681
+		} , {
+			"ports" : ["MIL" , "IST"] ,
+			"distance" : 1665
+		} , {
+			"ports" : ["ESS" , "LED"] ,
+			"distance" : 1728
+		} , {
+			"ports" : ["LED" , "MOW"] ,
+			"distance" : 626
+		} , {
+			"ports" : ["LED" , "IST"] ,
+			"distance" : 2096
+		} , {
+			"ports" : ["MOW" , "THR"] ,
+			"distance" : 2462
+		} , {
+			"ports" : ["MOW" , "IST"] ,
+			"distance" : 1763
+		} , {
+			"ports" : ["IST" , "BGW"] ,
+			"distance" : 1612
+		} , {
+			"ports" : ["BGW" , "THR"] ,
+			"distance" : 704
+		} ,	{
+			"ports" : ["BGW" , "KHI"] ,
+			"distance" : 2410
+		} , {
+			"ports" : ["BGW" , "RUH"] ,
+			"distance" : 951
+		} , {
+			"ports" : ["THR" , "DEL"] ,
+			"distance" : 2550
+		} , {
+			"ports" : ["THR" , "KHI"] ,
+			"distance" : 1933
+		} , {
+			"ports" : ["THR" , "RUH"] ,
+			"distance" : 1269
+		} , {
+			"ports" : ["RUH" , "KHI"] ,
+			"distance" : 2065
+		} , {
+			"ports" : ["KHI" , "DEL"] ,
+			"distance" : 1069
+		} , {
+			"ports" : ["KHI" , "BOM"] ,
+			"distance" : 873
+		} , {
+			"ports" : ["DEL" , "CCU"] ,
+			"distance" : 1313
+		} , {
+			"ports" : ["DEL" , "MAA"] ,
+			"distance" : 1753
+		} , {
+			"ports" : ["DEL" , "BOM"] ,
+			"distance" : 1135
+		} , {
+			"ports" : ["BOM" , "MAA"] ,
+			"distance" : 1033
+		} , {
+			"ports" : ["MAA" , "CCU"] ,
+			"distance" : 1382
+		} , {
+			"ports" : ["MAA" , "BKK"] ,
+			"distance" : 2229
+		} , {
+			"ports" : ["MAA" , "JKT"] ,
+			"distance" : 3627
+		} , {
+			"ports" : ["CCU" , "HKG"] ,
+			"distance" : 2618
+		} , {
+			"ports" : ["CCU" , "BKK"] ,
+			"distance" : 1636
+		} , {
+			"ports" : ["BKK" , "HKG"] ,
+			"distance" : 1688
+		} , {
+			"ports" : ["BKK" , "SGN"] ,
+			"distance" : 716
+		} , {
+			"ports" : ["BKK" , "JKT"] ,
+			"distance" : 2295
+		} , {
+			"ports" : ["HKG" , "SHA"] ,
+			"distance" : 1230
+		} , {
+			"ports" : ["HKG" , "TPE"] ,
+			"distance" : 807
+		} , {
+			"ports" : ["HKG" , "MNL"] ,
+			"distance" : 1144
+		} , {
+			"ports" : ["HKG" , "SGN"] ,
+			"distance" : 1488
+		} , {
+			"ports" : ["SHA" , "PEK"] ,
+			"distance" : 1075
+		} , {
+			"ports" : ["SHA" , "ICN"] ,
+			"distance" : 840
+		} , {
+			"ports" : ["SHA" , "TYO"] ,
+			"distance" : 1782
+		} , {
+			"ports" : ["SHA" , "TPE"] ,
+			"distance" : 678
+		} , {
+			"ports" : ["PEK" , "ICN"] ,
+			"distance" : 904
+		} , {
+			"ports" : ["ICN" , "TYO"] ,
+			"distance" : 1207
+		} , {
+			"ports" : ["TYO" , "SFO"] ,
+			"distance" : 1207
+		} , {
+			"ports" : ["TYO" , "OSA"] ,
+			"distance" : 407
+		} , {
+			"ports" : ["OSA" , "TPE"] ,
+			"distance" : 1740
+		} , {
+			"ports" : ["TPE" , "MNL"] ,
+			"distance" : 1170
+		} , {
+			"ports" : ["MNL" , "SFO"] ,
+			"distance" : 11244
+		} , {
+			"ports" : ["MNL" , "SYD"] ,
+			"distance" : 6243
+		} , {
+			"ports" : ["MNL" , "SGN"] ,
+			"distance" : 1613
+		} , {
+			"ports" : ["SGN" , "JKT"] ,
+			"distance" : 1878
+		} , {
+			"ports" : ["JKT" , "SYD"] ,
+			"distance" : 5502
+		} , {
+			"ports" : ["SYD" , "LAX"] ,
+			"distance" : 12051
+		} , {
+			"ports" : ["LAX" , "SFO"] ,
+			"distance" : 543
+		} , {
+			"ports" : ["LAX" , "CHI"] ,
+			"distance" : 2828
+		} , {
+			"ports" : ["SFO" , "CHI"] ,
+			"distance" : 2994
+		} , {
+			"ports" : ["CHI" , "YYZ"] ,
+			"distance" : 684
+		} , {
+			"ports" : ["CHI" , "ATL"] ,
+			"distance" : 958
+		} , {
+			"ports" : ["ATL" , "WAS"] ,
+			"distance" : 883
+		} , {
+			"ports" : ["ATL" , "MIA"] ,
+			"distance" : 957
+		} , {
+			"ports" : ["MIA" , "WAS"] ,
+			"distance" : 1483
+		} , {
+			"ports" : ["WAS" , "YYZ"] ,
+			"distance" : 575
+		} , {
+			"ports" : ["WAS" , "NYC"] ,
+			"distance" : 334
+		} , {
+			"ports" : ["NYC" , "YYZ"] ,
+			"distance" : 568
+		}
+	]
+}

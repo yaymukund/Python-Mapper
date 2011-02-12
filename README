@@ -1,0 +1,51 @@
+Pandemic Mapper 1.1
+Mukund Lakshman
+
+System Requirements:
+* Python v2.6+
+* ATI Radeon HD 5970
+
+Features:
+* Store thousands of routes, cities, coordinates, populations, and other
+  presumably useful information.
+* Calculate statistics about your database such as longest flight, largest
+  population, and shortest passenger.
+* Easy-to-use command line interface for business majors or lazy programmers.
+* Implements Dijkstra®, the latest in 1950s pathfinding algorithms.
+* Read and write .JSON files to your floppy or laser disc.
+
+Instructions:
+* To run, navigate to the 'mapdb' directory and type:
+  python mapper.py
+
+Commands:
+
+        load <filename.json>
+        save <filename.json>
+        help <command>                          [leave blank to list commands]
+        list                                                                    [or ls]
+        stat <subcommand>               [leave blank to list subcommands]
+        continents                                              [or cont]
+
+        Order now and receive...
+
+        edit <code> (<key>)
+  uncity <city>
+  unroute <code> <code>
+  newcity
+  route <code 1> <code 2> ... <code n>
+  shortest <code> <code>
+  save <filename>
+
+        ...absolutely free!
+
+Code Structure:
+  database.py           Database.
+  mapper.py             Interface.
+    read_methods.py     Static read methods.
+    write_methods.py    Static write methods.
+    utils.py            Static utility methods.
+  test_database.py
+
+License Agreement:
+        do not pirate this :(

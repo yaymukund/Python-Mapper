@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2
+END
+compatibility.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/compatibility.py
+END
+runner.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/runner.py
+END
+suite.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/suite.py
+END
+case.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/case.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/util.py
+END
+result.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/result.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/__init__.py
+END
+__main__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/__main__.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/signals.py
+END
+main.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/main.py
+END
+collector.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/collector.py
+END
+loader.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/loader.py
+END

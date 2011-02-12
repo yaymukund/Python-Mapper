@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test
+END
+test_suite.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_suite.py
+END
+test_assertions.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_assertions.py
+END
+dummy.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/dummy.py
+END
+test_unittest2_with.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_unittest2_with.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/__init__.py
+END
+test_loader.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_loader.py
+END
+test_program.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_program.py
+END
+test_discovery.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_discovery.py
+END
+test_runner.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_runner.py
+END
+test_new_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_new_tests.py
+END
+test_case.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_case.py
+END
+support.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/support.py
+END
+test_result.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_result.py
+END
+test_functiontestcase.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_functiontestcase.py
+END
+test_setups.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_setups.py
+END
+test_skipping.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_skipping.py
+END
+test_break.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fa10-cs242/!svn/ver/5507/mlakshm2/Assignment2.2/unittest2/test/test_break.py
+END
